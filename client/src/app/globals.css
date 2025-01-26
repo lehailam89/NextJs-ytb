@@ -78,5 +78,15 @@ body {
   .text-mini {
     @apply text-xs;
   }
+  .roboto-custom {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Thay thế <weight> bằng giá trị thực tế, ví dụ: 400 */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 }
+
+
 
