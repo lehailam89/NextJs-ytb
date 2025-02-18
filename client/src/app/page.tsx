@@ -1,6 +1,11 @@
+
+import Link from "next/link";
 import Image from "next/image";
+import ButtonRedirect from "./components/ButtonRedirect";
 
 export default function Home() {
+  
+
   return (
    <>
     <main>
@@ -12,6 +17,9 @@ export default function Home() {
         height={300}
         quality={100}
       />
+      <Link href={'/login'}>Login</Link>
+      <Link href={'/register'}>Register</Link> 
+      <ButtonRedirect />
     </main>
    </>
   );
